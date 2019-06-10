@@ -30,9 +30,11 @@
 				height="50px"></li>
 		</ul>
 
-		<ul id="ul" class="nav navbar-right" method="POST" action="/login-user">
+		<form action="/login" method="POST">
+			
+		<ul id="ul" class="nav navbar-right" >
 			<li class="nav-item" style="color: white;">Username<br> <input
-				type="text" name="username">&nbsp &nbsp;
+				type="text" name="username">  &nbsp;
 			</li>
 			<li class="nav-item" style="color: white;">Password <br> <input
 				type="password" name="password"> &nbsp;<br> <a
@@ -40,10 +42,12 @@
 			</li>
 
 			<li class="nav-item"><br> <a href="page(3).html">
-					<button type="button" class="button" ></jsp:attribute>'>Log In</button>
+					<button type="button" class="button" >Log In</button>
 			</a></li>
 
 		</ul>
+		</form>
+
 
 	</nav>
 	<div style="margin-top: 100px;"></div>
@@ -94,9 +98,9 @@
 	
 	<div class="col-sm-4"></div>
 	
-	<c:when tezt="${mode=='ALL_USERS' }">
 	
-	</c:when>
+	
+	
 
 
 </body>
